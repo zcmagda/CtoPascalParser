@@ -23,21 +23,6 @@ tokens = (
     'EQUAL',
 )
 
-#reserved = {
-#    'while' : 'WHILE',
-#    'else' : 'ELSE',
-#    'switch':'SWITCH',
-#    'case':'CASE',
-#    'do' : 'DO',
-#    'break': 'BREAK',
-#    'return' : 'RETURN',
-#    'float' : 'FLOAT',
-#    'double' : 'DOUBLE',
-#    'char' : 'CHAR',
-#    'printf':'PRINTF',
-#    'scanf' : 'SCANF'
-#}
-
 t_PLUS   = r'\+'
 t_MINUS  = r'-'
 t_TIMES  = r'\*'
@@ -50,18 +35,6 @@ t_LEFTBRACE = r'\{'
 t_RIGHTBRACE = r'\}'
 t_ASSIGN = r'='
 t_EQUAL = r'=='
-#t_WHILE = r'while'
-#t_ELSE = r'else'
-#t_SWITCH = r'switch'
-#t_CASE = r'case'
-#t_DO = r'do'
-#t_BREAK = r'break'
-#t_RETURN = r'return'
-#t_FLOAT = 'float'
-#t_DOUBLE = r'double'
-#t_CHAR = r'char'
-#t_PRINTF = r'printf'
-#t_SCANF = r'scanf'
 
 t_ignore = ' \t'
 
